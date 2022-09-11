@@ -2,6 +2,9 @@
 
 [![tested with vitest](https://img.shields.io/badge/tested_with-vitest-99424f.svg)](https://vitest.dev/)
 
+
+
+
 This project is written in [Node](https://nodejs.org/en/), and tested with [Vitest - Blazing Fast Unit Test Framework](https://vitestjs.io/).
 
 ---
@@ -10,13 +13,18 @@ This project is written in [Node](https://nodejs.org/en/), and tested with [Vite
 
 When npm runs vitest, all the tests are failing as seen at the end of its output to the console.
 
-<img width="244" alt="all-tests-fail" src="https://user-images.githubusercontent.com/13385801/132997415-a6f54977-b168-45ad-8c89-23b1cdceecec.png">
+
+<img width="600" alt="all tests fail"  src="https://user-images.githubusercontent.com/13385801/189547187-9a6e14e8-0d1f-45e0-bde7-db0ffee09bff.png">
+
+
 
 Since we have 4 files, vitest sees 4 test suites. Within these 4 suites, we have a total of 27 coding skill assignments, each with a test. The comments in the files will explain what each coding skill assignment must accomplish.
 
 Fixing the code will make the tests pass and show in green in the console. Here is the vitest output when all the tests pass.
 
-<img width="343" alt="show all tests pass" src="https://user-images.githubusercontent.com/13385801/132997600-7ff5f3a3-d606-4b89-8843-8ef0a3cd8c54.png">
+
+<img width="600" alt="all tests pass" src="https://user-images.githubusercontent.com/13385801/189547353-39dcd4d1-20d3-4b31-9bee-e7b044cfc092.png">
+
 
 # Instructions
 
