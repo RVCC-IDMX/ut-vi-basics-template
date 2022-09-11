@@ -1,6 +1,6 @@
 {
   "files.eol": "\n",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "vscode.typescript-language-features",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "workbench.editor.highlightModifiedTabs": true,
@@ -12,11 +12,18 @@
   "editor.matchBrackets": "always",
   "editor.bracketPairColorization.enabled": true,
   "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
     "editor.formatOnSave": true
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnSave": true
   },
   "editor.guides.indentation": true,

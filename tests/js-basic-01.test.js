@@ -2,7 +2,6 @@
 /* eslint-disable prefer-template */
 /* eslint-disable operator-assignment */
 /* eslint-disable prefer-const */
-// import { test } from 'vitest';
 /*
 
 * @file: js-basic-01.test.js
@@ -202,7 +201,7 @@ test('sillyString', () => {
 
 ! Practice 🍎🍎🍎
 
-TODO: In the following lines of code, create the required variable using a let or const
+TODO: In the following lines of code, create either the required variable using a let or a constant using const
 TODO: keyword and assign it a value.
 
 */

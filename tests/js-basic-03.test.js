@@ -24,7 +24,7 @@
 ? respectively.
 
 TODO: This skill requires 1 line of code.
-TODO: Use the let keyword to declare a variable called isJanuary and assign it
+TODO: Use the let keyword to declare a variable called isSeptember and assign it
 TODO: to the boolean value true.
 */
 
@@ -32,10 +32,10 @@ TODO: to the boolean value true.
 
 // * Don't mess with the test code below here!
 
-test('isJanuary', () => {
-  expect(isJanuary).toBe(true);
-  expect(typeof isJanuary).toBe('boolean');
-  expect(isJanuary).toBeTruthy();
+test('isSeptember', () => {
+  expect(isSeptember).toBe(true);
+  expect(typeof isSeptember).toBe('boolean');
+  expect(isSeptember).toBeTruthy();
 });
 
 /*
@@ -149,17 +149,17 @@ test('bloop', () => {
 ? The ! operator is also called the bang operator.
 
 TODO: This skill requires 1 line of code.
-TODO: Use the let keyword to declare a variable called notJanuary and assign it to
-TODO: the boolean value of !isJanuary.
+TODO: Use the let keyword to declare a variable called notSeptember and assign it to
+TODO: the boolean value of !isSeptember.
 */
 
 // * Add your code BELOW here
 
 // * Don't mess with the test code below here!
 
-test('notJanuary', () => {
-  expect(notJanuary).toBeFalsy();
-  expect(typeof notJanuary).toBe('boolean');
+test('notSeptember', () => {
+  expect(notSeptember).toBeFalsy();
+  expect(typeof notSeptember).toBe('boolean');
 });
 
 /*

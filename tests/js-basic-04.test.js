@@ -30,7 +30,7 @@
 TODO: This skill requires 3 lines of code.
 TODO: Use the const keyword to declare a variable called a and assign any number value.
 TODO: Use the const keyword to declare a variable called b and assign it a different number value.
-TODO: Use the let keyword to declare a variable called c and assign it the sum of a and b.
+TODO: Use the const keyword to declare a variable called c and assign it the sum of a and b.
 */
 
 // * Add your code BELOW here
@@ -38,19 +38,26 @@ TODO: Use the let keyword to declare a variable called c and assign it the sum o
 // * Don't mess with the test code below here!
 
 test('arithmetic sum', () => {
+  expect(typeof a).toBe('number');
   expect(() => {
-    // prove a is a constant and not a variable
+    // prove this has an immutable value
+    // by throwing an error if we try to reassign it
     // eslint-disable-next-line no-const-assign
     a = '🙉';
   }).toThrow();
-  expect(() => {
-    // prove b is a constant and not a variable
-    // eslint-disable-next-line no-const-assign
-    b = '🙈';
-  }).toThrow();
-  expect(typeof a).toBe('number');
+  //
   expect(typeof b).toBe('number');
+  expect(() => {
+    // eslint-disable-next-line no-const-assign
+    b = '🙉';
+  }).toThrow();
+  //
   expect(typeof c).toBe('number');
+  expect(() => {
+    // eslint-disable-next-line no-const-assign
+    c = '🙉';
+  }).toThrow();
+  //
   expect(c).toEqual(a + b);
 });
 

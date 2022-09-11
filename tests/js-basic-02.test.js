@@ -195,36 +195,7 @@ test('helloPet', () => {
 
 /*
 
-! SKILL 8 Understanding string immutability - part 1 🍎
-
-? Primitive values like numbers and strings are immutable.
-? When you reassign a variable to a new primitive value, the
-? original primitive value is not changed.
-? It is just not available in the code using that variable name.
-
-TODO: This skill requires 2 lines of code.
-TODO: In line 1: Use the let keyword to create a variable called myState and
-TODO: assign it to the string literal 'California'.
-TODO: In line 2: Assign the first letter to 'K" using the code: myState[0] = 'K';
-
-? the below test for myState matching 'Kalifornia" will fail because the string
-? is immutable and didn't change.
-*/
-
-// * Add your code BELOW here
-
-// * Don't mess with the test code below here!
-
-test('myState', () => {
-  expect(typeof myState).toBe('string');
-  expect(myState).toHaveLength(10);
-  expect(myState).not.toMatch(/^Kalifornia$/gm);
-  expect(myState).toBe('California');
-});
-
-/*
-
-! SKILL 9 Understanding string immutability - part 2 🍎
+! SKILL 9 Understanding string immutability 🍎
 
 
 ? In JavaScript, strings are immutable. This means that once a string is
@@ -238,7 +209,8 @@ TODO: the string literal 'I dunno!'.
 TODO: In line 2: Reassign thisMonth to the string literal 'September'.
 
 ? The below test for thisMonth matching 'I dunno!' will fail because the
-? variable has been reassigned to a different string.
+? variable has been reassigned to a different string. What it previously
+?
 */
 
 // * Add your code BELOW here
