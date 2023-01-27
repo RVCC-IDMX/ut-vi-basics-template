@@ -70,7 +70,6 @@ test('arithmetic sum', () => {
 
 ? Math.random() returns a random number between 0 (inclusive) and 1 (exclusive).
 
-
 TODO: This skill requires 1 line of code.
 TODO: Using the Math object, assign a random number to a variable called rnd.
 
@@ -90,7 +89,6 @@ test('rnd', () => {
 
 ! SKILL 3 Create a random integer using the Math object 🍎
 
-
 ? REMEMBER: Math.random() returns a random floating-point number
 ? between 0 (inclusive) and 1 (exclusive).
 ? Math.floor() rounds a number down to the nearest integer.
@@ -98,7 +96,6 @@ test('rnd', () => {
 ? So, to create a random integer between 0 (inclusive) and 10 (exclusive),
 ? the expression is: Math.floor(Math.random() * 10)
 ? The result of that expression is an integer between 0 and 9.
-
 
 TODO: This skill requires 1 line of code.
 TODO: Using the Math object, assign a random integer to a variable called randomInt
@@ -180,7 +177,7 @@ test('rounding', () => {
   expect(rounding2).toBe(6);
   expect(typeof rounding3).toBe('number');
   expect(rounding3).toBe(5);
-})
+});
 /*
 
 ! SKILL 6 Type conversion string to number using parseInt() 🍎
@@ -229,7 +226,6 @@ test('bakersDozen', () => {
 ?    let n = 123456.789;
 ?    n.toFixed(0)         // => "123457"
 ?    n.toFixed(2)         // => "123456.79"  (two decimal places)
-
 
 TODO: This skill requires 2 lines of code.
 TODO: Using the keyword const, declare a constant called myPi
