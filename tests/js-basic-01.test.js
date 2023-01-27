@@ -201,7 +201,9 @@ test('sillyString', () => {
 
 ! Practice 🍎🍎🍎
 
-TODO: In the following lines of code, create either the required variable using a let or a constant using const
+TODO: In the following lines of code,
+TODO: create either the required variable
+TODO: using a let or a constant using const
 TODO: keyword and assign it a value.
 
 */

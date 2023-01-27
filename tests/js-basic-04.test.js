@@ -197,8 +197,6 @@ TODO: (notice how I have escaped the apostrophe with with a backslash)
 TODO: In line 2: Using the keyword const, declare a constant called bakersDozen and assign
 TODO: it the value of parseInt() applied to orderBagels
 
-? Notice how Prettier changes the string '13 is a Baker\'s Dozen' with an escaped character
-? to a string with double quotes where the apostrophe does not have to be escaped.
 */
 
 // * Add your code BELOW here
