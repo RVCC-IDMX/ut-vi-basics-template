@@ -197,7 +197,6 @@ test('helloPet', () => {
 
 ! SKILL 9 Understanding string immutability 🍎
 
-
 ? In JavaScript, strings are immutable. This means that once a string is
 ? created, it cannot be changed.
 ? If you use let, you can reassign the value of the variable, but if you use const,
@@ -287,4 +286,4 @@ test('creating a total', () => {
 test('html', () => {
   expect(typeof html).toBe('string');
   expect(html).toMatch(/^<h1>JavaScript<\/h1><h2>HTML<\/h2><p>This is a paragraph<\/p>$/gm);
-})
+});

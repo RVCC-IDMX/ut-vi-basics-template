@@ -168,7 +168,6 @@ test('notSeptember', () => {
 ? Using !! converts truthy values to boolean true, and falsy values too boolean false.
 ? When you see !!, think "Bang bang! you're boolean!"
 
-
 TODO: This skill requires 2 lines of code.
 TODO: Create a variable called user and assign it to an empty string.
 TODO: Use the let keyword to declare a variable called isLoggedIn and assign it to
