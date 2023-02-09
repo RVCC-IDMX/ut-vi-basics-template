@@ -208,7 +208,7 @@ TODO: the string literal 'I dunno!'.
 TODO: In line 2: Reassign thisMonth to the string literal 'September'.
 
 ? The below test for thisMonth matching 'I dunno!' will fail because the
-? variable has been reassigned to a different string. What it previously
+? variable has been reassigned to a different string.
 ?
 */
 
