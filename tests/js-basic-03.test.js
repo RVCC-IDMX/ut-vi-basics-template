@@ -10,8 +10,6 @@
 ? only two possible values of this type. The reserved words true and false
 ? evaluate to these two values.
 ?
-? [3.4 Boolean Values]
-? (https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/ch03.html#booleans)
 
 */
 

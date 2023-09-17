@@ -15,9 +15,6 @@
 ? complex mathematical operations through a set of functions and constants
 ? defined as properties of the Math object.
 
-? [3.2.3 Arithmetic in JavaScript]
-? (https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/ch03.html#idm46198571728472)
-
 */
 
 /*

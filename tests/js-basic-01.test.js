@@ -23,9 +23,7 @@
 ? we say it is a global variable or constant and has global scope.
 ? In Node, the scope of a global variable is the file that it is defined in.
 ?
-? [3.10 Variable Declaration and Assignment]
-? (https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/ch03.html#variabledeclaration
-? )
+
 
 ? All of the variables and constants in this file are global variables.
 ? This is why we can access them anywhere after they are declared.

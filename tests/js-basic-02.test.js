@@ -15,8 +15,6 @@
 ? that represents a single element of a string. To represent a single 16-bit
 ? value, simply use a string that has a length of 1.
 ?
-? [3.3 Text]
-? (https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/ch03.html#text)
 
 */
 
