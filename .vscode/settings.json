@@ -1,13 +1,15 @@
 {
   "files.eol": "\n",
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
   "editor.defaultFormatter": "vscode.typescript-language-features",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.enablePreview": false,
-  "editor.tabSize": 2,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
   "editor.minimap.enabled": false,
   "editor.matchBrackets": "always",
   "editor.bracketPairColorization.enabled": true,
@@ -28,6 +30,6 @@
   },
   "editor.guides.indentation": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
+    "source.fixAll": "always"
   }
 }
