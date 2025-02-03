@@ -1,5 +1,5 @@
 /*
- * @file: js-basic-04.test.js
+ * @file: basics-04.test.js
  * @title: Arithmetic in JavaScript, The Math Object, & Type Conversion
  *
  * Instructor Note:
